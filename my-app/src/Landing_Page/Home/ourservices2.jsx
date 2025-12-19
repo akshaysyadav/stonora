@@ -88,6 +88,30 @@ const OurServices1 = () => {
         </div>
 
       </div>
+
+      {/* SUBSCRIBE CTA */}
+<div className="mt-20 text-center">
+  <p className="text-base sm:text-lg font-medium text-[#D59E43]/90 mb-5">
+    Save up to <span className="font-semibold">25%</span> compared to market rates!
+  </p>
+
+  <button
+    onClick={() => navigate("/subscribe")}
+    className="
+      px-8 py-3
+      rounded-xl
+      font-semibold
+      text-base sm:text-lg
+      bg-[#D59E43]
+      text-[#0C3024]
+      transition-all duration-300
+      hover:bg-[#c48f3b]
+      hover:scale-105
+    "
+  >
+    Subscribe Now
+  </button>
+</div>
     </section>
   );
 };
